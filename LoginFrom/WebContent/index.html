@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+ <style>
+      .button {
+        background-color: #ffbf80;
+        border: none;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+    <form method="post" action="DB.jsp" >
+    <h3 align="Center"><u>MyApp</u> <u>Login</u> <u>Page</u></h3>
+           <img src="file:///D:/JavaPrograms/LoginFrom/pics/bgimg.jpg" alt="Background" height="250px" style="width:100%">
+       <br/><br/><br/><br/>
+       <table cellpading="25" cellspacing="25" align= "center" style="background:#fff0e6">
+       
+			<tr>
+       		<th>User Name:</th><td><Input type="text" name=Fname id=Fname placeholder="UserName" required></td>
+       		</tr>
+       		<tr>
+       		    <th>Password:</th><td><Input type="password" name=password id=password placeholder="Password" required></td>
+       		</tr>
+       		<tr>
+       		    <td><input type="submit" value="submit" onclick="return check();"></td>
+                <td> <a href="Signup.html" class="button">SignUP</td>
+       		</tr>
+       </table>
+
+    </form> 
+</body>
+</html>

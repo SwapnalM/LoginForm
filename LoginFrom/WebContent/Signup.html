@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+ <style>
+      .button {
+        background-color: #ffbf80;
+        border: none;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+</style>
+</head>
+<body>
+ <form method="post" action="Database.jsp">
+		
+		<h3><center><u>Sign</u> <u>up</u> <u>Page</u></center></h3>
+		<img src="file:///D:/JavaPrograms/LoginFrom/pics/bgimg.jpg" alt="Background" height="250px" style="width:100%">
+       <br/><br/><br/><br/>
+       
+		<table cellpadding="5" cellspacing="5"  style="background:#fff0e6" align="center">
+			<tr>
+			<td>First Name</td>
+			<td><input type="Text" name="Fname" id="Fname" required></td>
+			</tr>
+			
+			<tr>
+			<td>Last Name</td>
+			<td><input type="Text" name="Lname" id="Lname" requierd></td>
+			</tr>
+						
+			<tr>
+			<td>Email ID</td>
+			<td><input type="email" name="email" id="email"requierd></td>
+			</tr>
+			
+			<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" id="password" requierd></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td><input type="submit" value="Submit"onclick="return check();"></td>
+			<td></td>
+			</tr>
+		</table>
+		
+		</form>
+</body>
+</html>
